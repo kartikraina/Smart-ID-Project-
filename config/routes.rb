@@ -13,8 +13,6 @@ Rails.application.routes.draw do
   # get 'management', to: 'welcome#adminportal'
 
   resources :users
-
-
   resources :students
 
   resources :students do
